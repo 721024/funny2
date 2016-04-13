@@ -1,45 +1,45 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="7" inline="true" x="6" y="24">
+  <block type="controls_repeat" id="1" inline="true" x="6" y="24">
     <value name="TIMES">
-      <block type="math_number" id="14">
+      <block type="math_number" id="2">
         <field name="NUM">30000</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_forward" id="48"></block>
+      <block type="movement_forward" id="3"></block>
     </statement>
     <next>
-      <block type="controls_repeat" id="38" inline="true">
+      <block type="controls_repeat" id="4" inline="true">
         <value name="TIMES">
-          <block type="math_number" id="55">
+          <block type="math_number" id="5">
             <field name="NUM">30000</field>
           </block>
         </value>
         <statement name="DO">
-          <block type="movement_right" id="24"></block>
+          <block type="movement_right" id="6"></block>
         </statement>
         <next>
-          <block type="controls_repeat" id="62" inline="true">
+          <block type="controls_repeat" id="7" inline="true">
             <value name="TIMES">
-              <block type="math_number" id="69">
+              <block type="math_number" id="8">
                 <field name="NUM">30000</field>
               </block>
             </value>
             <statement name="DO">
-              <block type="movement_forward" id="79"></block>
+              <block type="movement_forward" id="9"></block>
             </statement>
             <next>
-              <block type="controls_repeat" id="86" inline="true">
+              <block type="controls_repeat" id="10" inline="true">
                 <value name="TIMES">
-                  <block type="math_number" id="93">
+                  <block type="math_number" id="11">
                     <field name="NUM">30000</field>
                   </block>
                 </value>
                 <statement name="DO">
-                  <block type="movement_right" id="103"></block>
+                  <block type="movement_right" id="12"></block>
                 </statement>
                 <next>
-                  <block type="movement_stop" id="113"></block>
+                  <block type="movement_stop" id="13"></block>
                 </next>
               </block>
             </next>
